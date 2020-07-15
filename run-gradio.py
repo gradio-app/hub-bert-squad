@@ -23,6 +23,6 @@ gr.Interface(qa_func,
     gr.outputs.Textbox(label="Answer"),
     title="Ask Me Anything",
     description="This model, BERT-SQuAD, is a question answering model that takes 2 inputs: a paragraph that provides context and a question that should be answered.",
-    thumbnail="",
+    thumbnail="https://github.com/gradio-app/hub-bert-squad/blob/master/thumbnail.png?raw=true",
     examples=samples).launch()
 
